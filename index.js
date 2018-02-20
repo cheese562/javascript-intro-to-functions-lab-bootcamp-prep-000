@@ -28,18 +28,8 @@ function sayHiToGrandma(string)
   {
     console.log("YES INDEED!")
   }
-  else
+  else if (string === "I love you, Grandma")
   {
-    
+    console.log("I love you, too.")
   }
 }
-
-
-
-
-
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
-  })
-})
-
